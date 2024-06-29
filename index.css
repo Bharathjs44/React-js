@@ -1,3 +1,58 @@
-.heading{
-    color:red;
+.head{
+    display:flex;
+    flex-wrap: wrap;
+    margin:10px;
+    border:5px solid black;
+    justify-content: space-between;
 }
+
+.nav-items{
+    padding:10px;
+}
+.nav-items > ul {
+    font-size:20px;
+    list-style-type: none;
+    display:flex;
+
+}
+
+.nav-items > ul > li{
+    padding:10px;
+    margin: 10px;
+}
+
+.image{
+    width:120px;
+}
+
+.app-layout{
+    padding:10px;
+    margin:10px;
+}
+
+.res-container{
+    width:150px;
+    justify-content: justify;
+    padding:7px;
+    margin-left: 5px;
+    margin-bottom: 5px;;
+
+}
+
+.image1{
+    width:150px;
+    height:130px;
+}
+
+.res-container:hover{
+   border:3px solid black;
+   cursor: pointer;
+}
+
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    padding:7px;
+
+}
+
